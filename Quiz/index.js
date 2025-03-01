@@ -113,7 +113,6 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     e.target.classList.add("active");
-    console.log(e.target);
 
     const selectedAnswer = e.target.innerText;
     if (selectedAnswer === questions[currentQuestionIndex].answer) {
